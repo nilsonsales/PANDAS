@@ -13,18 +13,19 @@ set -U -e fish_user_paths[1]
 ```
 Where [1] means the first line  
 
-### Creating an environment
+### Activating conda's environment
 In order to create your own environment, use:
+
+Activating:
 ```bash
-conda create -yn fishtest
+conda activate root
+```
+The first time you try it, it'll ask you to initialize it for fish:
+```bash
+conda init fish
 ```
 
-Activatig:
-```bash
-conda activate fishtest
-```
-
-Deactivating:
+Then it will be activated by default. In order to disable it and use your system's default python, use:
 ```bash
 conda deactivate
 ```
