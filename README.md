@@ -15,13 +15,11 @@ Where [1] means the first line
   
   
 ### Activating conda's environment
-In order to create your own environment, use:
-
-Activating:
+To activate the conda's environment, you use:
 ```bash
 conda activate root
 ```
-The first time you try it, it'll ask you to initialize it for fish:
+The first time you do it, it'll ask you to initialize it for fish (as default):
 ```bash
 conda init fish
 ```
