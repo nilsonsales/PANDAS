@@ -11,9 +11,10 @@ To remove, use
 $ echo fish_user_paths
 $ set -U -e fish_user_paths[1]
 ```
-Where [1] means the first line
+Where [1] means the first line  
 
-creating an environment:
+### Creating an environment
+In order to create your own environment, use:
 ```bash
 $ conda create -yn fishtest  
 ```
