@@ -13,6 +13,7 @@ set -U -e fish_user_paths[1]
 ```
 Where [1] means the first line  
 
+
 ### Activating conda's environment
 In order to create your own environment, use:
 
