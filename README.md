@@ -1,12 +1,12 @@
 # PANDAS
 Using Anaconda and PANDAS.  
 
-Adding conda to the PATH using fish:
+Adding conda to your PATH using **fish**, add it to your user's profile:
 ```bash
 set -U fish_user_paths ~/bin/anaconda3/bin $fish_user_paths
 ```
 
-To remove, use
+If you want to remove it later, use
 ```bash
 echo $fish_user_paths
 set -U -e fish_user_paths[1]
@@ -19,12 +19,12 @@ In order to create your own environment, use:
 conda create -yn fishtest
 ```
 
-To use conda's env:
+Activatig:
 ```bash
 conda activate fishtest
 ```
 
-After:
+Deactivating:
 ```bash
 conda deactivate
 ```
