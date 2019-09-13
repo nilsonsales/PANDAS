@@ -9,7 +9,7 @@ set -U fish_user_paths ~/bin/anaconda3/bin $fish_user_paths
 To remove, use
 ```bash
 echo $fish_user_paths
-$ set -U -e fish_user_paths[1]
+set -U -e fish_user_paths[1]
 ```
 Where [1] means the first line  
 
