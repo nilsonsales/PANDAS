@@ -1,6 +1,6 @@
 # Data Analysis with Pandas and Python
 
-Following the Udemy course "Data Analysis with Pandas and Python". Instead of using Anaconda, I'm using a Python's virtual environment, with all the requirements listed in the file *requirements.txt*.
+Following the Udemy course [Data Analysis with Pandas and Python](https://www.udemy.com/course/data-analysis-with-pandas/). Instead of using Anaconda, I'm using a Python's virtual environment, with all the requirements listed in the file *requirements.txt*.
 
 To activate using the **fish** shell:
 ```sh
